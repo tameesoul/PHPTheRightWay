@@ -24,5 +24,13 @@ $x = 20;
 echo $y; /// 20 assigned by reference;
 echo "<br>";
 
+/// comment 
+
+//// one way ;
+#  other way 
+
+/*
+ multi line comment
+*/
 
 
