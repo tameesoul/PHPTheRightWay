@@ -1,0 +1,8 @@
+<?php
+///Heredoc
+
+
+
+
+
+//Nowdoc
