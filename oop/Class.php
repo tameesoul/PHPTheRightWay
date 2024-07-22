@@ -1,15 +1,16 @@
 <?php
 
 Class Cat{
-    private $Name;
-    private$OwnerName;
 
-    private $price;
-    public function __construct($Name , $OwnerName , $price)
+    /// using Constructor Property Promotion  
+    public function __construct( private $Name ,  private $OwnerName ,  private $price)
     {
-        $this->Name = $Name;
-        $this->OwnerName = $OwnerName;
-        $this->price = $price;
+        // $this->Name = $Name;
+        // $this->OwnerName = $OwnerName;
+        // $this->price = $price;
+
+        
+        /// no need for this 
     }
 
 
