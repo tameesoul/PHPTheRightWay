@@ -1,11 +1,14 @@
 <?php
+include 'vendor/autoload.php';
 
 
-include 'oop/Paymentgateway/stripe/Transaction.php';
-include 'oop/Paymentgateway/paddle/Transaction.php';
-include 'oop/Paymentgateway/paddle/CustomerProfile.php';
-include 'oop/Paymentgateway/Notification/Email.php';
+use app\Paymentgateway\paddle\Transaction;
+use Ramsey\Uuid\Nonstandard\Uuid;
+use Ramsey\Uuid\UuidFactory;
 
-use Paymentgateway\paddle\Transaction;
+$id = new UuidFactory();
 
-var_dump(new Transaction());
+echo $id->uuid4();
+echo '<br>';
+$paddelTranscation = new Transaction();
+var_dump($paddelTranscation);
