@@ -214,6 +214,7 @@ return array(
     'Ramsey\\Uuid\\UuidInterface' => $vendorDir . '/ramsey/uuid/src/UuidInterface.php',
     'Ramsey\\Uuid\\Validator\\GenericValidator' => $vendorDir . '/ramsey/uuid/src/Validator/GenericValidator.php',
     'Ramsey\\Uuid\\Validator\\ValidatorInterface' => $vendorDir . '/ramsey/uuid/src/Validator/ValidatorInterface.php',
+    'app\\Paymentgateway\\Enums\\Paid' => $baseDir . '/app/Paymentgateway/Enums/Paid.php',
     'app\\Paymentgateway\\Notification\\Email' => $baseDir . '/app/Paymentgateway/Notification/Email.php',
     'app\\Paymentgateway\\paddle\\CustomerProfile' => $baseDir . '/app/Paymentgateway/paddle/CustomerProfile.php',
     'app\\Paymentgateway\\paddle\\Transaction' => $baseDir . '/app/Paymentgateway/paddle/Transaction.php',

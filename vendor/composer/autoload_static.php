@@ -254,6 +254,7 @@ class ComposerStaticInit6f62e181a42045c5974c12b349c16bfe
         'Ramsey\\Uuid\\UuidInterface' => __DIR__ . '/..' . '/ramsey/uuid/src/UuidInterface.php',
         'Ramsey\\Uuid\\Validator\\GenericValidator' => __DIR__ . '/..' . '/ramsey/uuid/src/Validator/GenericValidator.php',
         'Ramsey\\Uuid\\Validator\\ValidatorInterface' => __DIR__ . '/..' . '/ramsey/uuid/src/Validator/ValidatorInterface.php',
+        'app\\Paymentgateway\\Enums\\Paid' => __DIR__ . '/../..' . '/app/Paymentgateway/Enums/Paid.php',
         'app\\Paymentgateway\\Notification\\Email' => __DIR__ . '/../..' . '/app/Paymentgateway/Notification/Email.php',
         'app\\Paymentgateway\\paddle\\CustomerProfile' => __DIR__ . '/../..' . '/app/Paymentgateway/paddle/CustomerProfile.php',
         'app\\Paymentgateway\\paddle\\Transaction' => __DIR__ . '/../..' . '/app/Paymentgateway/paddle/Transaction.php',
